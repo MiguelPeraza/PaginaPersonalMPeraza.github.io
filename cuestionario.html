@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Página Web Personal</title>
+        <link rel="stylesheet" href="./styles/styles4.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+        
+    </head>
+
+    <body>
+        <header>Pelis Y Series Review</header>
+        
+        <nav>
+            <a href="./index.html">Inicio</a>
+            <a href="./peliculas.html">Películas</a>
+            <a href="./series.html">Series</a>
+            <a >Opiniones</a>
+            <a href="./cuenta.html">Cuenta</a>
+        </nav>
+
+        <div>
+            <h1>Opiniones</h1>
+            <form action="/tu_ruta_backend" method="POST" enctype="multipart/form-data">
+                
+                <section class="seccion1">
+                    <label for="nombre">Nombre de usuario:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </section>
+
+
+                <section class="seccion3"> 
+                    <label for="titulo">Título de la Película:</label>
+                    <input type="text" id="titulo" name="titulo" required>
+                </section>
+
+                <section class="seccion4">
+                    <label for="director">Director:</label>
+                    <input type="text" id="director" name="director" required>
+                </section>
+
+                <section class="seccion5">
+                    <label for="actores">Actores Principales:</label><br>
+                    <textarea id="actores" name="actores" rows="4" required></textarea>
+                </section>
+
+                <section class="seccion6">
+                    <label for="poster">Foto del Póster:</label><br>
+                    <input type="file" id="poster" name="poster" accept="image/*" required>
+                </section>
+
+                <section class="seccion7">
+                    <label for="opinion">Opinión:</label><br>
+                    <textarea id="opinion" name="opinion" rows="4" required></textarea><br>
+                    <button type="submit">Enviar</button>
+                </section>
+
+          
+            </form>
+            
+        </div>
+
+        <footer>
+            Desarrollado por Miguel Antonio Peraza
+        </footer>
+    </body>
+
+</html>
