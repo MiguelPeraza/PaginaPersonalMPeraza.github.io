@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Dosis', sans-serif;
+
 }
 
 header {
@@ -80,8 +81,9 @@ footer {
 .acpt{
 width: 80%;
 }
-p{
-    font-size: 18px;
+p,label{
+    
+    font-size: 22px;
 }
 @media  (width <= 768px){
     input[type="text"],
@@ -106,12 +108,15 @@ p{
     input[type="tel"],
     select,
     textarea {
-        width: 75%;
+        width: 85%;
         padding: 10px;
         margin: 5px 0;
         border: 1px solid #ccc;
         border-radius: 3px;
         
+    }
+    section{
+        text-align: center;
     }
 }
 @media (768px< width <1024px){
@@ -121,11 +126,12 @@ p{
     input[type="tel"],
     select,
     textarea {
-        width: 85%;
+        width: 95%;
         padding: 10px;
         margin: 5px 0;
         border: 1px solid #ccc;
         border-radius: 3px;
         
     } 
+   
 }
